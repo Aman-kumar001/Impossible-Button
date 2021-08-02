@@ -156,7 +156,7 @@ export default function Home() {
 					</div>
 				</div>
 			)}
-			{count >= 6 && (
+			{count > 6 && (
 				<div style={{ textAlign: 'center' }}>
 					<svg
 						className={styles.enough}
