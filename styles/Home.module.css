@@ -11,6 +11,10 @@
 	position: relative;
 	margin: auto;
 }
+.enough {
+	transform: scale(0.5);
+	margin-bottom: -5rem;
+}
 .face {
 	position: absolute;
 	transform: scale(0.4);
