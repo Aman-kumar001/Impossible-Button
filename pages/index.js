@@ -251,7 +251,7 @@ export default function Home() {
 							/>
 						</g>
 					</svg>
-					<h1 style={{ fontWeight: '500' }}>Enought!!</h1>
+					<h1 style={{ fontWeight: '500' }}>Enough!!</h1>
 					<h2 style={{ fontWeight: '300' }}>Get some life Bro.</h2>
 				</div>
 			)}
