@@ -16,7 +16,7 @@ export default function Home() {
 
 	return (
 		<div className={styles.container}>
-			{count < 6 && (
+			{count <= 6 && (
 				<div className={styles.buttonContainer}>
 					<svg
 						style={{ top: `${clicked === false ? 0 : -7.1}rem` }}
