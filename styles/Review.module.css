@@ -1,0 +1,95 @@
+.container {
+	height: 100vh;
+	width: 100vw;
+	background-color: #f0f0c9;
+	color: #124e78;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: 'Nunito';
+	overflow: hidden;
+	position: relative;
+}
+.debug {
+	padding: 1rem 1rem;
+	font-size: 1.3rem;
+	border: 1px solid #124e78;
+	position: absolute;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+.content {
+	width: 80%;
+	margin: 4rem auto;
+	height: auto;
+}
+
+.button {
+	background-color: #124e78;
+	color: #f0f0c9;
+	font-size: 1.2rem;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	position: absolute;
+	right: 10vw;
+	bottom: 5rem;
+	z-index: 2;
+}
+.circle1 {
+	position: absolute;
+	height: 40vw;
+	width: 40vw;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -20vw;
+	right: -20vw;
+	transform: translateX(-15vw) translateY(-5rem);
+	transform-origin: center;
+	border-radius: 50%;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.circle2 {
+	position: absolute;
+	height: 20vw;
+	width: 20vw;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.catcherFox {
+	text-align: end;
+	position: absolute;
+	width: 100vw;
+	right: 7vw;
+	bottom: -270px;
+	transition: bottom 0.5s;
+	z-index: 2;
+	/* border: 1px solid black; */
+}
+.hand {
+	position: absolute;
+	top: -30px;
+	right: -190px;
+	/* border: 1px solid black; */
+	transform-origin: 55px 190px;
+	transform: rotateZ(0deg);
+	transition: transform 0.3s linear;
+}
+
+@media (max-width: 800px) {
+	.circle1 {
+		height: 60vw;
+		width: 60vw;
+		bottom: -30vw;
+		right: -30vw;
+		transform: translateX(-25vw) translateY(-5rem);
+	}
+	.circle2 {
+		height: 40vw;
+		width: 40vw;
+	}
+}
